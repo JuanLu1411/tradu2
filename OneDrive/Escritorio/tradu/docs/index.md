@@ -2,4 +2,4 @@
 
 Aquí va el contenido de tu documentación.
 
-<script src="/assets/tradu.js"></script>
+<script src="./assets/tradu.js"></script>
