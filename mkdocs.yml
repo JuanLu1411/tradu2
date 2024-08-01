@@ -1,0 +1,20 @@
+site_name: My I18n Markdown App
+site_description: Documentation for My I18n Markdown App
+site_author: Your Name
+
+nav:
+  - Home: index.md
+  - Setup:
+    - Project Structure: setup/project-structure.md
+    - Installation: setup/installation.md
+  - Usage:
+    - Running the App: usage/running-the-app.md
+    - Changing Language: usage/changing-language.md
+  - Components:
+    - App Component: components/app.md
+    - MarkdownContent Component: components/markdown-content.md
+  - Configuration:
+    - i18next Configuration: configuration/i18next.md
+
+theme:
+  name: material

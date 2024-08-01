@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-i18n-markdown-app
+  description: An example React application with i18next and Markdown integration
+  tags:
+    - react
+    - i18next
+    - markdown
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:juanl
+  providesApis: []
+  consumesApis: []
+  dependsOn:
+    - npm:react
+    - npm:react-dom
+    - npm:react-i18next
+    - npm:i18next
+    - npm:i18next-http-backend
+    - npm:i18next-browser-languagedetector
+    - npm:marked
+    - npm:react-scripts
